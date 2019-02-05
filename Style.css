@@ -1,0 +1,329 @@
+body{
+  margin: 0;
+  padding:0;
+}
+div.menu{
+  width:100%;
+  background-color: blue  ;
+  position: sticky;
+  height: 50px;
+  padding-top: 5px;
+  position: sticky;
+  border-bottom: 1px solid grey;
+  top:0;
+  left:0;
+}
+div.menu ul{
+  list-style-type:none;
+  padding-right: 50px;
+  padding-top: 2px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  /* background-color: #d10202; */
+}
+div.menu ul li{float: left;}
+div.menu ul li a{
+  display:block;
+  height: 5px;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: arial;
+}
+div.menu ul li a:hover{
+  border-top: 2px solid red;
+  background-color: #fff;
+  color: red;
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+  padding-left: 75px;
+  padding-top: 5px;
+}
+
+
+div.header{
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding:0 auto;
+  background: url("ngalam.jpg")no-repeat center;
+  background-size: cover;
+}
+div.gelap{
+  background-position: center;
+  width:100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+}
+
+div.header h1{
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding-top:200px;
+  font-family: tahoma;
+}
+div.header h1 img{
+  width: 100px;
+  height:auto;
+}
+div.header h1 label{
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+  font-family: arial;
+  }
+
+div.about{
+  width: 100%;
+  height: 400px;
+}
+div.about .left{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+div.about .left h1{
+	text-align: right;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: 15;
+	padding-right: 15px;
+	border-right: 7px solid blue;
+}
+
+
+div.about .left p{
+  text-align: right;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 5;
+  color: grey;
+}
+
+div.about .right{
+  width: 50%;
+  height:100%;
+  float: right;
+}
+div.about .right img{
+  width: 500px;
+  height: auto;
+  border: 10px solid black;
+  border-radius: 20px black;
+  padding-top: 0;
+  margin-top: 78px;
+  margin-left: 18px;
+}
+
+div.wisata{
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+div.wisata .kiri{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+div.wisata .kiri h1{
+	text-align: left;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: 15;
+	padding-right: 15px;
+	border-right: 7px solid blue;
+	float: left;
+}
+
+div.kuliner1{
+  width: 100%;
+  height: 400px;
+  float: left;
+
+}
+
+div.kuliner1 .box{
+	display: inline-block;
+	width: 365px;
+	float: left;
+	border: 2px solid #ddd;
+	margin: 10px;
+}
+
+div.kuliner1 .box img{
+	width:100%;
+	height: 250px;
+}
+
+div.kuliner1 .box .deskripsi{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 7;
+	padding:1px;
+	text-align:center;
+}
+
+div.wisata{
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+div.wisata .kiri{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+div.wisata .kiri h1{
+	text-align: left;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: 15;
+	padding-right: 15px;
+	border-right: 7px solid blue;
+	float: left;
+}
+
+div.kuliner1{
+  width: 100%;
+  height: 400px;
+  float: left;
+
+}
+
+div.kuliner1 .box{
+	display: inline-block;
+	width: 365px;
+	float: left;
+	border: 2px solid #ddd;
+	margin: 10px;
+}
+
+div.kuliner1 .box img{
+	width:100%;
+	height: 250px;
+}
+
+div.kuliner1 .box .deskripsi{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 7;
+	padding:1px;
+	text-align:center;
+}
+
+div.wisata{
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+div.wisata .kiri{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+div.wisata .kiri h1{
+	text-align: left;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: 15;
+	padding-right: 15px;
+	border-right: 7px solid blue;
+	float: left;
+}
+
+div.kuliner1{
+  width: 100%;
+  height: 400px;
+  float: left;
+
+}
+
+div.kuliner1 .box{
+	display: inline-block;
+	width: 365px;
+	float: left;
+	border: 2px solid #ddd;
+	margin: 10px;
+}
+
+div.kuliner1 .box img{
+	width:100%;
+	height: 250px;
+}
+
+div.kuliner1 .box .deskripsi{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 7;
+	padding:1px;
+	text-align:center;
+}
+
+div.wisata4{
+  width: 100%;
+  height: 400px;
+  float: left;
+  padding-top: 450px;
+}
+div.wisata4 .kiri{
+  width: 40%;
+  height: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  float: left;
+}
+
+div.wisata4 .kiri h1{
+	text-align: left;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: 15;
+	padding-right: 15px;
+	border-right: 7px solid blue;
+	float: left;
+}
+
+div.wisata2{
+  width: 100%;
+  height: 400px;
+  float: left;
+
+}
+
+div.wisata2 .box{
+	display: inline-block;
+	width: 365px;
+	float: left;
+	border: 2px solid #ddd;
+	margin: 10px;
+}
+
+div.wisata2 .box img{
+	width:100%;
+	height: 250px;
+}
+
+div.wisata2 .box .deskripsi{
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: 7;
+	padding:1px;
+	text-align:center;
+}
